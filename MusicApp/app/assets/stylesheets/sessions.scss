@@ -1,0 +1,26 @@
+// Place all the styles related to the sessions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.form {
+display: flex;
+flex-direction: column;
+
+
+}
+
+label, input {
+    display: block;
+
+
+}
+
+label {
+    color: plum;
+
+}
+
+input[type='submit']{
+    align-self: flex-end;
+}
